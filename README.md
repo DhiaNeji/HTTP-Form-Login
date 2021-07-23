@@ -11,7 +11,7 @@ The UserDetailsService implementation, called UserService, uses Spring Data and 
 
 #Tools : 
 
-Eclipse.
-PostgreSQL.
+- Eclipse.
+- PostgreSQL.
 
 #Note : this application is only for educational purposes.
