@@ -4,6 +4,7 @@ A simple HTTP-Form-Login application using Spring Boot.
 - The custom authentication provider implements the authentication logic.This implementation defines the authentication logic.
 - The AuthenticationProvider uses a UserDetailsService implementation and two PasswordEncoder implementations (BCRYPT and SCRYPT)
 - The UserDetailsService implementation, called UserService, uses Spring Data and JPA to connect to the database and get the user’s details.
+- The SecurityContext to show the details of the authenticated user. 
 
 ## Routes description : 
 - /login : contains the login form.
